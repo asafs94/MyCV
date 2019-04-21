@@ -10,7 +10,7 @@ import Loading from "./components/loading";
 import { Transition } from "react-spring/renderprops";
 import Contact from "./components/contact";
 
-const serverUrl = "/";
+const serverUrl = "https://my-cv-asaf-backend.herokuapp.com/";
 
 class App extends Component {
   constructor(props) {
