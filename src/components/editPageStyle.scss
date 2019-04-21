@@ -1,0 +1,54 @@
+$color-1: #ffcc02;
+$color-2: #eaeaea;
+$color-3: #474747;
+$header-1: 17.5vmin;
+$header-2: $header-1 * 0.6;
+$header-3: $header-1 * 0.45;
+$header-4: $header-1 * 0.4;
+$header-5: $header-1 * 0.35;
+$header-6: $header-1 * 0.3;
+$header-7: $header-1 * 0.25;
+$header-8: $header-1 * 0.2;
+$header-9: $header-1 * 0.15;
+
+#edit-page{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    width: 60vw;
+    background: $color-3;
+    color: $color-2;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid $color-2 0.35vmin;
+    th{
+        color: $color-1;
+    }
+    td{
+        padding: 1vh 1vw;
+    }
+}
+
+th,td,tr,tbody{
+    border: solid $color-2 0.25vmin;
+}
+
+.no-header-table{
+    td:first-of-type{
+        color: $color-1;
+        font-weight: 700;
+    }
+}
+
+input{
+    outline: none;
+    box-shadow: none;
+    border:none;
+    padding: 0.5vh 0.25vw;
+    text-align: center;
+    background: rgba($color: $color-2, $alpha: 0.2);
+    color: $color-2;
+    font-size: $header-9;
+}

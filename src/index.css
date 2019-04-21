@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:500,800");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+button {
+  font-family: "Exo", sans-serif;
+  background: transparent;
+  border: none;
+}
+button:active,button:focus,button {
+outline: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

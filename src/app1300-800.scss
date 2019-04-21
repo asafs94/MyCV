@@ -1,0 +1,108 @@
+$header-1: 17.5vmin;
+$header-2: $header-1 * 0.6;
+$header-3: $header-1 * 0.45;
+$header-4: $header-1 * 0.4;
+$header-5: $header-1 * 0.35;
+$header-6: $header-1 * 0.3;
+$header-7: $header-1 * 0.25;
+$header-8: $header-1 * 0.2;
+$header-9: $header-1 * 0.15;
+
+$color-1: #ffcc02;
+$color-2: #eaeaea;
+$color-3: #474747;
+
+/*@media screen and (orientation: portrait){
+    #phoneBlocker{
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+    nav{
+      display: none;
+    }
+  }
+  
+  
+
+*/
+
+@media screen and (max-aspect-ratio: 1300/800){
+    #header{
+        >.text-portion{
+        }
+
+        #header-bg{
+            display: none;
+        }
+    }
+
+    #skills{
+        background: darken($color-2, 9);
+        #skillList{
+            height: fit-content;
+            .skillObject{
+                width: 75vw;
+                >div{
+                    width: 40vw;
+                    margin-left: 20vw;
+                }
+            }
+        }
+        #more-skills{
+            text-shadow: $color-3 4px 4px 5px;
+            text-align: center;
+            margin-top: 10vh;
+            h4{
+              color: $color-2;
+            }
+            p{
+            }
+          }
+    }
+
+
+    #education{
+        .page-content{
+            flex-direction: column;
+            align-items: center;
+            height: 80%;
+            text-align: center;
+
+            #second-ed ul{
+                width: 100%;
+            }
+        }
+    }
+
+    #projects{
+        background: $color-2;
+    }
+    #projects .page-content{
+        text-align: center;
+    }
+
+    #app-wrapper > #tri-right {
+        top: 212.5vh;
+        right: 0;
+        width: 20vw;
+        height: 20vh;
+      }
+      
+      #app-wrapper > #tri-left {
+        top: 290.5vh;
+        left: 0;
+        width: 12.5vw;
+        height: 20vh;
+      }
+      
+      #app-wrapper > #tri-left-2 {
+        top: 327.5vh;
+        left: 0;
+        width: 12.5vw;
+        height: 10vh;
+      }
+
+  }
+  
