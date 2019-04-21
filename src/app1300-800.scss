@@ -17,11 +17,16 @@ $color-3: #474747;
   nav {
     display: none;
   }
+  #flag {
+    display: none;
+  }
 }
 
 @media screen and (max-aspect-ratio: 1300/800) {
-
-
+  
+  nav {
+    display: none;
+  }
   #header {
     > .text-portion {
     }
@@ -56,7 +61,7 @@ $color-3: #474747;
   }
 
   #education {
-    #flag{
+    #flag {
       display: none;
     }
     .page-content {
