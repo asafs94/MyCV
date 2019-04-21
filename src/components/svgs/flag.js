@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Flag(props) {
   return (
-    <svg viewBox="-5 0 105 105" preserveAspectRatio="none">
+    <svg id="flag" viewBox="-5 0 105 105" preserveAspectRatio="none">
       <defs>
         <filter id="dropshadow" height="130%">
           <feGaussianBlur in="SourceAlpha" stdDeviation="40" />{" "}

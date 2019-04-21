@@ -67,6 +67,9 @@ $color-3: #474747;
   }
 
   #education {
+    #flag{
+      display: none;
+    }
     .page-content {
       flex-direction: column;
       align-items: center;
