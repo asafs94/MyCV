@@ -12,8 +12,9 @@ $color-1: #ffcc02;
 $color-2: #eaeaea;
 $color-3: #474747;
 
+/*
 @media only screen and (max-width: 600px) {
-  /* For tablets: */
+  /* For tablets: 
   nav {
     display: none;
   }
@@ -21,6 +22,7 @@ $color-3: #474747;
     display: none;
   }
 }
+*/
 
 @media screen and (max-aspect-ratio: 1300/800) {
   
